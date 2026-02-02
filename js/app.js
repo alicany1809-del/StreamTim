@@ -104,7 +104,7 @@ socket.onopen = () => {
     console.log("Connecté à Twitch");
 };
 
-let chatMessageSoundLink = "/assets/sounds/messageSounds/message-13716.mp3"
+let chatMessageSoundLink = "assets/sounds/messageSounds/message-13716.mp3"
 
 const chatMessageSound = new Audio(chatMessageSoundLink);
 
