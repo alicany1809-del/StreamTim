@@ -43,13 +43,13 @@ function createElementDescription() {
 function createElementSearchInput() {
     // Création du label
 
-    const searchInputPlaceholderText = "Ex : nomDeTaChaine ou lienDeTaChaine";
+    const searchInputPlaceholderText = "Ex : nomDeTaChaine ";
 
     const container = document.getElementById("container");
     const label = document.createElement('div');
     label.id = "channelLabel";
     label.className = "streamtimLabel";
-    label.textContent = "Sélectionne ta chaîne Twitch (pseudo ou lien) :";
+    label.textContent = "Sélectionne ta chaîne Twitch (pseudo) :";
     container.appendChild(label);
     const searchInput = document.createElement('input');
 
@@ -150,4 +150,3 @@ function createElementCheckboxOptionMessageSounds() {
 
 
 }
-createElementCheckboxOptionMessageSounds()
